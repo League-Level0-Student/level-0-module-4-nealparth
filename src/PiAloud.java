@@ -19,9 +19,12 @@ char num= pi.charAt(0);
 char num1=pi.charAt(1);
 	System.out.println(num1);
 	// 4. Print ALL the digits of of Pi (hint: use a loop)
-
+			for(int i=0; i<pi.length(); i++) {
+				System.out.print(pi.charAt(i));
+					speak(pi.charAt(i));
+			}
 	// 5. Use the speak() method to speak all the digits of Pi.
-
+					
 	}
 	// [ADVANCED]
 	// *6. Get a character from the user using the getInputFromUser() method
